@@ -1,6 +1,6 @@
 local url = "https://discord.com/api/webhooks/982102704153305180/hA1lRs46ig1xqM7_9l7QLFqQEb-W57mdADoxPtnCetZQG74deQVkDXZbu5HGPsk_U2w8"
 local data = {
-   ["content"] = "**Yujiro Hub: Execution Detected!** ——— **__Username:__** " .. game:GetService("Players").LocalPlayer.Name,
+   ["content"] = "**Yujiro Hub: Execution Detected!** ——— **__Username:__** " .. game:GetService("Players").LocalPlayer.Name .. "** (``Whitelisted!``)**",
 }
 
 local newdata = game:GetService("HttpService"):JSONEncode(data)
